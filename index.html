@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ sưu tập hình ảnh</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            color: #fff;
+            padding: 20px 0;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bộ sưu tập hình ảnh</h1>
+    <div class="gallery">
+        <img src="thị trấn.png" alt="Thị Trấn">
+        <img src="mường than.png" alt="Mường Than">
+        <img src="hua nà.png" alt="Hua Nà">
+        <img src="mường kim.png" alt="Mường Kim">
+        <img src="khoen on.png" alt="Khoen On">
+        <img src="PHA MU.png" alt="Pha Mu">
+        <img src="phúc than.png" alt="Phúc Than">
+        <img src="ta gia (2).png" alt="Tà Gia">
+        <img src="tà hừa (2).png" alt="Tà Hừa">
+        <img src="tàmung.png" alt="Tà Mung"> 
+        <img src="mường mít.png" alt="Thị Trấn">
+    </div>
+</body>
+</html>
